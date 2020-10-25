@@ -1,16 +1,10 @@
-# coffee_house_app
+# Coffee House App
 
-A new Flutter project.
+A coffee ordering app demo
 
-## Getting Started
+## Inspiration
 
-This project is a starting point for a Flutter application.
+- [Inspiration Video](https://www.youtube.com/watch?v=bZj_OGZRb_M)
+- [Design Inspiration](https://dribbble.com/shots/8245907/attachments/604807?mode=media)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Current Screenshots

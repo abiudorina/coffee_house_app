@@ -30,8 +30,8 @@ class _DashboardPageState extends State<DashboardPage> {
 
   @override
   Widget build(BuildContext context) {
-    final screenHeight = MediaQuery.of(context).size.height;
-    final screenWidth = MediaQuery.of(context).size.width;
+    double screenHeight = MediaQuery.of(context).size.height;
+    double screenWidth = MediaQuery.of(context).size.width;
 
     return Scaffold(
       body: SafeArea(
@@ -98,6 +98,15 @@ class _DashboardPageState extends State<DashboardPage> {
               ),
             ),
             _buildSideNavigator(),
+            Positioned(
+              top: (screenHeight / 3) + 5,
+              left: (screenWidth / 5) + 25,
+              child: Container(
+                height: screenHeight - ((screenHeight / 3) + 50),
+                width: screenWidth - ((screenWidth / 5) + 40),
+                child: allOptions[_selectedOption],
+              ),
+            )
           ],
         ),
       ),
