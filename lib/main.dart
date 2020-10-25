@@ -1,3 +1,4 @@
+import 'package:coffee_house_app/pages/dashboard.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: null,
+      home: DashboardPage(),
     );
   }
 }
