@@ -8,3 +8,5 @@ A coffee ordering app demo
 - [Design Inspiration](https://dribbble.com/shots/8245907/attachments/604807?mode=media)
 
 ### Current Screenshots
+
+![Dashboard Page](screenshots/dashboard.png)
